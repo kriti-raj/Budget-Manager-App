@@ -18,11 +18,13 @@ A simple and intuitive Expense Tracker application built with React and Tailwind
 - Calculate and display the remaining amount from the total budget.
 - User-friendly interface with responsive design.
 
-## Screenshot
+## Screenshots
 
-![Screenshot of the user interface.](./public/image.png)
-![Screenshot of the user interface for mobiles.](./public/imageMobile1.png)
-![Screenshot of the user interface for mobiles.](./public/imageMobile2.png)
+<img src="./public/image.png" alt="Screenshot of the user interface." style="max-width: 100%; height: auto;">
+<div style="display: flex; justify-content: space-between;">
+  <img src="./public/imageMobile1.png" alt="Screenshot of the user interface for mobiles." style="width: 30%; height: 20%;">
+  <img src="./public/imageMobile2.png" alt="Screenshot of the user interface for mobiles." style="width: 30%; height: 20%;">
+</div>
 
 ## Setup
 
