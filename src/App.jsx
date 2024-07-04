@@ -90,8 +90,8 @@ const App = () => {
 
       <div className="flex flex-row items-start justify-around mb-8">
         <div className="w-full md:w-1/2 mb-4 md:mb-0">
-          <h3 className="font-bold text-center mb-4">Expenditure:</h3>
-          <ul className="border border-gray-300 rounded px-3 py-2">
+          <ul className="border border-gray-300 rounded px-3 py-2 text-center">
+            <h3 className="font-bold text-center mb-4">Expenditure:</h3>
             {reasons.map((reason, index) => (
               <li key={index} className="mb-1">
                 {reason}
@@ -100,8 +100,8 @@ const App = () => {
           </ul>
         </div>
         <div className="w-full md:w-1/2">
-          <h3 className="font-bold text-center mb-4">Amount Paid:</h3>
-          <ul className="border border-gray-300 rounded px-3 py-2">
+          <ul className="border border-gray-300 rounded px-3 py-2 text-center">
+            <h3 className="font-bold text-center mb-4">Amount Paid:</h3>
             {amounts.map((amount, index) => (
               <li key={index} className="mb-1">
                 {amount.toFixed(2)}
