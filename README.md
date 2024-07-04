@@ -21,6 +21,8 @@ A simple and intuitive Expense Tracker application built with React and Tailwind
 ## Screenshot
 
 ![Screenshot of the user interface.](./public/image.png)
+![Screenshot of the user interface for mobiles.](./public/imageMobile1.png)
+![Screenshot of the user interface for mobiles.](./public/imageMobile2.png)
 
 ## Setup
 
