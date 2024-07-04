@@ -46,8 +46,8 @@ const App = () => {
       <h1 className="text-center font-bold text-3xl mb-8">Expense Tracker</h1>
 
       <form onSubmit={expCalc}>
-        <div className="grid grid-cols-4 gap-4 mb-4">
-          <label className="col-span-1 font-bold ml-16">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mb-4">
+          <label className="md:col-span-1 font-bold ml-16">
             Enter Expenditure Details:
           </label>
 
@@ -88,9 +88,9 @@ const App = () => {
 
       <hr className="my-8" />
 
-      <div className="flex items-center justify-around mb-8">
-        <div className="w-1/2">
-          <h3 className="font-bold text-center mb-4">Input Item List:</h3>
+      <div className="flex flex-row items-start justify-around mb-8">
+        <div className="w-full md:w-1/2 mb-4 md:mb-0">
+          <h3 className="font-bold text-center mb-4">Expenditure:</h3>
           <ul className="border border-gray-300 rounded px-3 py-2">
             {reasons.map((reason, index) => (
               <li key={index} className="mb-1">
@@ -99,8 +99,8 @@ const App = () => {
             ))}
           </ul>
         </div>
-        <div className="w-1/2">
-          <h3 className="font-bold text-center mb-4">Input Amount List:</h3>
+        <div className="w-full md:w-1/2">
+          <h3 className="font-bold text-center mb-4">Amount Paid:</h3>
           <ul className="border border-gray-300 rounded px-3 py-2">
             {amounts.map((amount, index) => (
               <li key={index} className="mb-1">
@@ -122,7 +122,7 @@ const App = () => {
         </h3>
       </div>
 
-      <div className="mb-8 flex items-center justify-end gap-4">
+      <div className="mb-8 flex flex-col md:flex-row items-center justify-end gap-4">
         <label className="font-bold">Total Bank Balance:</label>
         <Input
           type="number"
