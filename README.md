@@ -20,9 +20,40 @@ A simple and intuitive Expense Tracker application built with React, Tailwind-CS
 
 ## Screenshots
 
-<img src="./public/image.png" alt="Screenshot of the user interface." style="max-width: 100%; height: auto;">
-<div style="display: flex; justify-content: space-between;">
-  <img src="./public/imageMobile.png" alt="Screenshot of the user interface for mobiles." style="width: 30%; height: 20%;">
+<div style="margin: 2rem 0;">
+  <!-- Desktop Screenshot -->
+  <img 
+    src="./public/image.png" 
+    alt="Screenshot of the user interface" 
+    style="
+      width: 100%;
+      max-width: 1200px;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+      margin-bottom: 2rem;
+      display: block;
+    "
+  >
+
+  <!-- Mobile Screenshot -->
+  <div style="
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  ">
+    <img 
+      src="./public/imageMobile.png" 
+      alt="Screenshot of the user interface for mobiles" 
+      style="
+        width: 300px;
+        max-width: 100%;
+        height: auto;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+      "
+    >
+  </div>
 </div>
 
 ## Setup
