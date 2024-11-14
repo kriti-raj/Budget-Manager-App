@@ -1,4 +1,4 @@
-# Budget Manager App
+# Expense Tracker
 
 A simple and intuitive Expense Tracker application built with React and Tailwind-CSS. This app helps users keep track of their expenditures and manage their budget effectively.
 
