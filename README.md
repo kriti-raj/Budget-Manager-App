@@ -1,6 +1,6 @@
 # Expense Tracker
 
-A simple and intuitive Expense Tracker application built with React and Tailwind-CSS. This app helps users keep track of their expenditures and manage their budget effectively.
+A simple and intuitive Expense Tracker application built with React, Tailwind-CSS and local storage. This app helps users keep track of their expenditures and manage their budget effectively.
 
 ## Table of Contents
 
@@ -22,8 +22,7 @@ A simple and intuitive Expense Tracker application built with React and Tailwind
 
 <img src="./public/image.png" alt="Screenshot of the user interface." style="max-width: 100%; height: auto;">
 <div style="display: flex; justify-content: space-between;">
-  <img src="./public/imageMobile1.png" alt="Screenshot of the user interface for mobiles." style="width: 30%; height: 20%;">
-  <img src="./public/imageMobile2.png" alt="Screenshot of the user interface for mobiles." style="width: 30%; height: 20%;">
+  <img src="./public/imageMobile.png" alt="Screenshot of the user interface for mobiles." style="width: 30%; height: 20%;">
 </div>
 
 ## Setup
@@ -33,9 +32,9 @@ Follow these steps to set up the project locally:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/kriti-raj/Budget-Manager-App.git
+   git clone https://github.com/kriti-raj/Expense-Tracker.git
 
-   cd Budget-Manager-App
+   cd Expense-Tracker
 
    ```
 
